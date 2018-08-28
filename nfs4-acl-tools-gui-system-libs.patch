@@ -1,0 +1,13 @@
+--- nfs4-acl-tools-0.3.4/GUI/nfs4-acl-editor/nfs4-acl-editor.pro.orig	2018-08-03 17:51:48.000000000 +0200
++++ nfs4-acl-tools-0.3.4/GUI/nfs4-acl-editor/nfs4-acl-editor.pro	2018-08-28 17:15:36.554959852 +0200
+@@ -6,9 +6,7 @@
+ TARGET += 
+ DEPENDPATH += .
+ INCLUDEPATH += .
+-INCLUDEPATH += /usr/local/include
+-INCLUDEPATH += ../../include
+-LIBS += ../../libnfs4acl/libnfs4acl.a 
++LIBS += -lnfs4acl
+ LIBS += -lattr
+ #LIBS += /lib/libnfs4acl.a
+ 
