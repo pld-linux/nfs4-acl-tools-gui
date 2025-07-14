@@ -26,8 +26,8 @@ Graficzny interfejs użytkownika do ACL dla linuksowego klienta NFSv4.
 
 %prep
 %setup -q -n nfs4-acl-tools-%{version}
-%patch0 -p1
-%patch1 -p1
+%patch -P0 -p1
+%patch -P1 -p1
 
 %build
 cd GUI/nfs4-acl-editor
