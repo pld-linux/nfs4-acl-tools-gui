@@ -2,7 +2,7 @@ Summary:	GUI ACL utility for the Linux NFSv4 client
 Summary(pl.UTF-8):	Graficzny interfejs użytkownika do ACL dla linuksowego klienta NFSv4
 Name:		nfs4-acl-tools-gui
 Version:	0.3.4
-Release:	1
+Release:	2
 License:	BSD
 Group:		X11/Applications
 Source0:	http://linux-nfs.org/~bfields/nfs4-acl-tools/nfs4-acl-tools-%{version}.tar.gz
